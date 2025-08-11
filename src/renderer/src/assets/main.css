@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  /* ===== COLORES PRIMARIOS ===== */
+  --color-primary-100: #eff6ff;
+  --color-primary-200: #bedafd;
+  --color-primary-500: #1c4dd8; /* Principal */
+
+  /* ===== SUCCESS ===== */
+
+  --color-success-100: #dbfbe6;
+  --color-success-200: #bbf7d0;
+  --color-success-500: #15a249; /* Principal */
+  --color-success-600: #208d41; /* Hover */
+
+  /* ===== INFO ===== */
+  --color-info-100: #f0fdf4;
+  --color-info-500: #07cbf2; /* Principal */
+  --color-info-600: #06b6d4; /* Hover */
+
+  /* ===== WARNING ===== */
+
+  /* ===== DANGER ===== */
+  --color-danger-100: #fef2f2;
+  --color-danger-200: #fecaca;
+  --color-danger-500: #e9570b; /* Principal */
+  --color-danger-600: #d14300; /* Hover */
+
+  /* ===== COLOR DE TEXTO BASE ===== */
+  --color-text-primary: #1f2937; /*texto principal */
+  --color-text-secondary: #6b7280; /*  texto secundario */
+  --color-text-muted: #9ca3af;
+  --color-border-primary: #e3e3e6;
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg p-4 border border-border-primary w-full;
+  }
+
+  .card-header {
+    @apply text-lg font-semibold text-text-primary border-b border-border-primary pb-2 mb-4;
+  }
+  .card-body {
+    @apply text-text-secondary;
+  }
+  .card-footer {
+    @apply mt-4 flex justify-end gap-2;
+  }
+
+  .btn {
+    @apply inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-gray-800 text-white hover:cursor-pointer hover:bg-gray-900 focus:outline-hidden focus:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-success {
+    @apply bg-success-500 text-white hover:bg-success-600 focus:outline-hidden focus:bg-success-600;
+  }
+
+  .btn-danger {
+    @apply bg-danger-500 text-white hover:bg-danger-600 focus:outline-hidden focus:bg-danger-600;
+  }
+}
