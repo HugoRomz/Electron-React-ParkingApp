@@ -12,19 +12,20 @@ Sistema de gestión de estacionamiento desarrollado con **Electron + React + Typ
 - 💾 **100% Offline** - no requiere internet
 - 🔧 **Configuración flexible** de tarifas y espacios
 
-## 🖼️ Capturas de Pantalla
+## 🖼️ Prediseño
 
 ### Dashboard Principal
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/now.png)
+
+### Dashboard Principal de momento
+![Dashboard](screenshots/now2.png)
 
 ### Generación de Tickets
-![Nuevo Ticket](screenshots/nuevo-ticket.png)
+![Nuevo Ticket](screenshots/tickets.png)
 
-### Gestión de Salidas
-![Salida Vehiculo](screenshots/salida-vehiculo.png)
+### Reportes
+![Reportes](screenshots/reports.png)
 
-### Configuración
-![Configuracion](screenshots/configuracion.png)
 
 ## 🛠️ Stack Tecnológico
 
