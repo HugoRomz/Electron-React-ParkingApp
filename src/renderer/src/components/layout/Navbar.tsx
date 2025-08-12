@@ -1,5 +1,6 @@
 import { CircleParking, Clock, Plus } from 'lucide-react'
 import React from 'react'
+import { Button } from '../ui/button'
 
 const Navbar: React.FC = () => {
   return (
@@ -23,10 +24,13 @@ const Navbar: React.FC = () => {
           <span className="font-extrabold text-danger-500">42</span>
           <span className="text-text-secondary text-sm font-medium">ocupados</span>
         </div>
-        <button className="btn btn-success px-3 py-1">
-          <Plus size={16} />
-          Ticket Rápido
-        </button>
+        <Button
+          variant="outline"
+          size="sm"
+          className="bg-success-500  hover:bg-success-600 text-white hover:text-white cursor-pointer"
+        >
+          <Plus size={16} /> Ticket Rápido
+        </Button>
       </div>
     </header>
   )

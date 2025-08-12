@@ -16,7 +16,7 @@ function createWindow(): void {
     title: 'Sistema de Estacionamiento',
     width: 1300,
     height: 750,
-    fullscreen: true,
+    fullscreen: false,
     show: false,
     resizable: false,
     autoHideMenuBar: true,
