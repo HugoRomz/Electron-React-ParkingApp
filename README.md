@@ -15,26 +15,31 @@ Sistema de gestión de estacionamiento desarrollado con **Electron + React + Typ
 ## 🖼️ Prediseño
 
 ### Dashboard Principal
+
 ![Dashboard](screenshots/now.png)
 
 ### Dashboard Principal de momento
+
 ![Dashboard](screenshots/now2.png)
 
 ### Generación de Tickets
+
 ![Nuevo Ticket](screenshots/tickets.png)
 
 ### Reportes
-![Reportes](screenshots/reports.png)
 
+![Reportes](screenshots/reports.png)
 
 ## 🛠️ Stack Tecnológico
 
 ### Backend (Electron Main)
+
 - **SQLite3** + better-sqlite3
 - **TypeScript** con patrón Repository
 - **IPC** para comunicación segura
 
 ### Frontend (React Renderer)
+
 - **React** + TypeScript
 - **Tailwind CSS** para estilos
 - **Zustand** para estado global
@@ -42,6 +47,7 @@ Sistema de gestión de estacionamiento desarrollado con **Electron + React + Typ
 - **React Hook Form** + Zod validación
 
 ### Utilidades
+
 - **date-fns** para fechas
 - **currency.js** para cálculos monetarios
 - **electron-pos-printer** para impresión
@@ -87,13 +93,13 @@ npm run dist
 ## 📊 Base de Datos
 
 El sistema utiliza SQLite3 local con las siguientes entidades principales:
+
 - Configuraciones del negocio
 - Espacios de estacionamiento
 - Tipos de vehículos
 - Tarifas
 - Tickets
 - Pagos
-
 
 ---
 
