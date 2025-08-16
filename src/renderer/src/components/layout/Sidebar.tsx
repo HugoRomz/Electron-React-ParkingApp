@@ -9,7 +9,7 @@ const Sidebar: React.FC = () => {
     { path: '/', label: 'Dashboard', icon: ChartColumn },
     { path: '/tickets', label: 'Tickets Activos', icon: ClockAlert },
     { path: '/reports', label: 'Reportes', icon: ClipboardMinus },
-    { path: '/configs', label: 'Configuración', icon: Settings }
+    { path: '/configs', label: 'Configuration', icon: Settings }
   ]
 
   return (

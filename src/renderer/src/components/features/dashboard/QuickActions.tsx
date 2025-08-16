@@ -1,5 +1,4 @@
-import { Button } from '@renderer/components/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@renderer/components/ui/card'
+import { Button, Card, CardContent, CardHeader, CardTitle } from '@renderer/components/ui'
 import { Plus, Printer, Search } from 'lucide-react'
 import { JSX } from 'react'
 

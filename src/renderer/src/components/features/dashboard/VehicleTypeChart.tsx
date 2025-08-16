@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@renderer/components/ui/card'
+import { Card, CardHeader, CardTitle, CardContent } from '@renderer/components/ui'
 import { LucideIcon } from 'lucide-react'
 import { JSX } from 'react'
 

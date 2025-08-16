@@ -1,12 +1,10 @@
 import { ElectronAPI } from '@electron-toolkit/preload'
-import { Configuracion } from '../main/models'
+import { Configuracion, ConfiguracionCreate, ConfiguracionUpdate } from '../main/models'
 
 export interface IElectronAPI {
   configuracion: {
-    create: (
-      configuracion: Omit<Configuracion, 'id' | 'fecha_creacion' | 'fecha_modificacion'>
-    ) => Promise<Configuracion>
-    update: (id: number, data: Partial<Configuracion>) => Promise<boolean>
+    create: (configuracion: ConfiguracionCreate) => Promise<Configuracion>
+    update: (id: number, data: ConfiguracionUpdate) => Promise<boolean>
     findOne: () => Promise<Configuracion | null>
     delete: (id: number) => Promise<boolean>
   }

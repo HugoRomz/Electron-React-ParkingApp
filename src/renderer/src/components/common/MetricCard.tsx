@@ -1,6 +1,6 @@
 import { LucideIcon } from 'lucide-react'
-import { Card, CardContent } from '../ui/card'
 import { JSX } from 'react'
+import { Card, CardContent } from '../ui'
 
 export interface MetricData {
   title: string
